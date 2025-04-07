@@ -1,0 +1,14 @@
+[
+    {
+        "des_id": 1,
+        "des_name": "Kyoto, Japan",
+        "des_description": "A city rich in history and culture, famous for its temples and gardens.",
+        "des_image": "uploads/out1.jpg"
+    },
+    {
+        "des_id": 2,
+        "des_name": "Santorini, Greece",
+        "des_description": "An island paradise with white-washed buildings and stunning sunsets.",
+        "des_image": "uploads/out1.jpg"
+    }
+]

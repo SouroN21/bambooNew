@@ -1,0 +1,34 @@
+[
+    {
+        "enq_id": 1,
+        "tour_id": 1,
+        "tourname": "Kyoto Cultural Journey",
+        "enq_modifications": "Add a sushi-making class",
+        "enq_dateOfDeparture": "2025-05-01",
+        "enq_tripDuration": 7,
+        "enq_noOfAdults": 2,
+        "enq_noOfChild": 1,
+        "enq_bugetPerPerson": 1500,
+        "enq_standardHotel": "4-star",
+        "enq_noOfRooms": 1,
+        "enq_departureAirport": "London Heathrow",
+        "enq_flightClass": "Economy",
+        "enq_interests": "Culture, Food"
+    },
+    {
+        "enq_id": 2,
+        "tour_id": 1,
+        "tourname": "Kyoto Cultural Journey",
+        "enq_modifications": "fds",
+        "enq_dateOfDeparture": "2025-04-23",
+        "enq_tripDuration": 1,
+        "enq_noOfAdults": 1,
+        "enq_noOfChild": 1,
+        "enq_bugetPerPerson": 100,
+        "enq_standardHotel": "2",
+        "enq_noOfRooms": 2,
+        "enq_departureAirport": "fds",
+        "enq_flightClass": "Premium Economy",
+        "enq_interests": "fsdf"
+    }
+]

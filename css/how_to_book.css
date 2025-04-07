@@ -1,0 +1,148 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4fef7;
+    color: #2e7d32;
+    line-height: 1.6;
+}
+
+/* Container styling */
+.container {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 40px 20px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* How to Book Section */
+.how-to-book-section {
+    padding: 40px 0;
+}
+
+.how-to-book-section h1 {
+    font-size: 2.8em;
+    color: #1b5e20;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.intro-text {
+    font-size: 1.25em;
+    color: #33691e;
+    text-align: center;
+    margin-bottom: 50px;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Steps Grid */
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+/* Step Block */
+.step-block {
+    background: #f1f8e9;
+    padding: 30px 20px;
+    border-radius: 12px;
+    border: 1px solid #c8e6c9;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 380px;
+}
+
+.step-block:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Step Image */
+.step-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #66bb6a;
+}
+
+/* Step Content */
+.step-content h2 {
+    font-size: 1.8em;
+    color: #2e7d32;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.step-content p {
+    font-size: 1em;
+    color: #33691e;
+    line-height: 1.5;
+}
+
+.step-content a {
+    color: #388e3c;
+    text-decoration: underline;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.step-content a:hover {
+    color: #66bb6a;
+}
+
+/* Back link */
+.back-link {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 12px 30px;
+    background-color: #388e3c;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-link:hover {
+    background-color: #66bb6a;
+    transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 30px 15px;
+    }
+
+    .how-to-book-section h1 {
+        font-size: 2.2em;
+    }
+
+    .step-content h2 {
+        font-size: 1.5em;
+    }
+
+    .step-image {
+        width: 120px;
+        height: 120px;
+    }
+}
