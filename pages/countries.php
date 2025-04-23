@@ -34,6 +34,7 @@ $css_path = "../css/countries.css";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $page_title; ?></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="<?php echo $css_path; ?>">
 </head>
@@ -43,16 +44,16 @@ $css_path = "../css/countries.css";
     <section class="countries-section">
         <div class="container">
             <header class="countries-header">
-                <h1>All Countries</h1>
+                <h1><i class="fas fa-globe"></i> All Countries</h1>
             </header>
-            <a href="../index.php" class="back-link">Back to Home</a>
+            <a href="../index.php" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
 
             <div class="countries-content">
                 <?php if (!empty($countries)): ?>
                     <div class="countries-list">
                         <?php foreach ($countries as $country): ?>
                             <article class="country-card">
-                                <h2><?php echo htmlspecialchars($country); ?></h2>
+                                <h2><i class="fas fa-flag"></i> <?php echo htmlspecialchars($country); ?></h2>
                                 <p><strong>Destinations:</strong>
                                     <?php
                                         $country_destinations = array_filter($destinations, fn($d) => $d['country'] === $country);
@@ -66,12 +67,16 @@ $css_path = "../css/countries.css";
                                         echo count($country_tours);
                                     ?>
                                 </p>
-                                <a href="tours.php?country=<?php echo urlencode($country); ?>" class="view-tours-button">View Tours</a>
+                                <a href="tours.php?country=<?php echo urlencode($country); ?>" class="view-tours-button">
+                                    <i class="fas fa-suitcase-rolling"></i> View Tours
+                                </a>
                             </article>
                         <?php endforeach; ?>
                     </div>
                 <?php else: ?>
-                    <p class="no-countries">No countries found.</p>
+                    <p class="no-countries">
+                        <i class="fas fa-globe-americas"></i> No destinations available at the moment. Please check back later!
+                    </p>
                 <?php endif; ?>
             </div>
         </div>
