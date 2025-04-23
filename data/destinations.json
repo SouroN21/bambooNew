@@ -14,5 +14,21 @@
         "des_highlights": ["Oia Village", "Red Beach", "Caldera Views"],
         "des_best_time_to_visit": "Late spring (April-June) or early autumn (September-October) for pleasant weather and fewer crowds",
         "des_image": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?q=80&w=2069&auto=format&fit=crop"
+    },
+    {
+        "des_id": 3,
+        "des_name": "Venice, Italy",
+        "des_description": "A romantic city of canals, historic architecture, and vibrant cultural festivals.",
+        "des_highlights": ["Grand Canal", "St. Mark’s Basilica", "Rialto Bridge"],
+        "des_best_time_to_visit": "Spring (April-May) or fall (September-October) for mild weather and fewer tourists",
+        "des_image": "https://images.unsplash.com/photo-1514896892745-42f91e4e78f9?q=80&w=2070&auto=format&fit=crop"
+    },
+    {
+        "des_id": 4,
+        "des_name": "Bangkok, Thailand",
+        "des_description": "A bustling metropolis blending ancient temples with modern skyscrapers and vibrant street markets.",
+        "des_highlights": ["Grand Palace", "Wat Arun", "Chatuchak Market"],
+        "des_best_time_to_visit": "November-February for cooler, drier weather",
+        "des_image": "https://images.unsplash.com/photo-1563492065599-3520f7754524?q=80&w=2070&auto=format&fit=crop"
     }
 ]
