@@ -2,13 +2,17 @@
     {
         "des_id": 1,
         "des_name": "Kyoto, Japan",
-        "des_description": "A city rich in history and culture, famous for its temples and gardens.",
-        "des_image": "uploads/out1.jpg"
+        "des_description": "A city rich in history and culture, famous for its temples, gardens, and traditional tea ceremonies.",
+        "des_highlights": ["Kinkaku-ji Temple", "Fushimi Inari Shrine", "Arashiyama Bamboo Grove"],
+        "des_best_time_to_visit": "Spring (March-May) for cherry blossoms or Autumn (September-November) for vibrant foliage",
+        "des_image": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?q=80&w=2070&auto=format&fit=crop"
     },
     {
         "des_id": 2,
         "des_name": "Santorini, Greece",
-        "des_description": "An island paradise with white-washed buildings and stunning sunsets.",
-        "des_image": "uploads/out1.jpg"
+        "des_description": "An island paradise with white-washed buildings, blue-domed churches, and stunning sunsets over the Aegean Sea.",
+        "des_highlights": ["Oia Village", "Red Beach", "Caldera Views"],
+        "des_best_time_to_visit": "Late spring (April-June) or early autumn (September-October) for pleasant weather and fewer crowds",
+        "des_image": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?q=80&w=2069&auto=format&fit=crop"
     }
 ]

@@ -1,0 +1,135 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    line-height: 1.6;
+}
+
+.countries-section {
+    margin-top: 80px;
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.countries-header {
+    text-align: center;
+    background: #f1f8e9;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+.countries-header h1 {
+    font-size: 2.5em;
+    color: #1b5e20;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.back-link {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #388e3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-link:hover {
+    background-color: #66bb6a;
+    transform: translateY(-2px);
+}
+
+.countries-content {
+    padding: 20px;
+}
+
+.countries-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.country-card {
+    background: #f1f8e9;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #c8e6c9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.country-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.country-card h2 {
+    font-size: 1.8em;
+    color: #388e3c;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #81c784;
+    padding-bottom: 5px;
+}
+
+.country-card p {
+    font-size: 1em;
+    margin: 10px 0;
+    color: #33691e;
+}
+
+.country-card p strong {
+    color: #1b5e20;
+    font-weight: 600;
+}
+
+.view-tours-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.view-tours-button:hover {
+    background-color: #66bb6a;
+    transform: scale(1.05);
+}
+
+.no-countries {
+    font-size: 1.2em;
+    color: #558b2f;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+    }
+
+    .countries-header h1 {
+        font-size: 2em;
+    }
+
+    .countries-list {
+        grid-template-columns: 1fr;
+    }
+
+    .country-card h2 {
+        font-size: 1.5em;
+    }
+}

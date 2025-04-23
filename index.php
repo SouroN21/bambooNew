@@ -23,6 +23,7 @@ $destinations = file_exists($destinations_file) ? json_decode(file_get_contents(
                     <li><a href="index.php">Destinations</a></li>
                     <li><a href="pages/all_tours.php">Tours</a></li>
                     <li><a href="#about">Experiences</a></li>
+                    <li><a href="pages/countries.php">Countries</a></li>
                     <li><a href="pages/how_to_book.php">How to Book</a></li>
                 </ul>
             </nav>

@@ -9,6 +9,7 @@
                 <li><a href="../index.php">Destinations</a></li>
                 <li><a href="./all_tours.php">Tours</a></li>
                 <li><a href="/index.php#about">Experiences</a></li>
+                <li><a href="countries.php">Countries</a></li>
                 <li><a href="./how_to_book.php">How to Book</a></li>
             </ul>
         </nav>
